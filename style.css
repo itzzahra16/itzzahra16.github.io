@@ -124,3 +124,17 @@ span{
     background-color: white;
     color: bisque;
 }
+.img-box img{
+    border-radius: 50%;
+    width: 550px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: bisque;
+}
+::-webkit-scrollbar-track{
+    background-color:rgb(0, 0, 0.6);
+    width: 50px;
+}
