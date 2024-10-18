@@ -91,8 +91,10 @@ span{
     display: flex;
     gap: 2em;
 }
-.btn-1, .btn-2 {
+.btn-1{
     padding: 15px 28px;
+    background-color: black;
+    color: white;
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
@@ -100,10 +102,6 @@ span{
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
-}
-.btn-1 {
-    background-color: black;
-    color: white;
 }
 .btn-1:hover{
     background-color: white;
@@ -199,46 +197,4 @@ span{
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
-}
-.header{
-    padding: 20px 5%;
-    flex-direction: column;
-}
-.navbar {
-    flex-direction: column;
-    margin-top: 10px;
-}
-.home {
-    flex-direction: column;
-    padding: 30px 5%;
-}
-.home-content {
-    max-width: 100%;
-    text-align: center;
-}
-.home-content h1 {
-    font-size: 36px;
-}
-.home-content h3 {
-    font-size: 32px;
-}
-.img-box img {
-    width: 80%;
-}
-.contact-form {
-    padding: 0 5%;
-}
-@media (max-width: 480px)
-
-.home-content h1 {
-    font-size: 28px;
-}
-.home-content h3 {
-    font-size: 24px;
-}
-.btn-box {
-    flex-direction: column;
-}
-.btn-1, .btn-2 {
-    width: 100%;
 }
