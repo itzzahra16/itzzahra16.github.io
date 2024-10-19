@@ -224,6 +224,13 @@ span {
     margin: 1rem 0;
     resize: none;
 }
+.footer{
+    background-color: black;
+}
+.footer li{
+    color: white;
+    padding-left: 5%;
+}
 @media (max-width: 1048px) {
     .home {
         flex-direction: column;
@@ -344,4 +351,8 @@ span {
     .about-img img {
         width: 250px;
     }
+    .contact-form {
+        padding: 10%;
+    }
+    
 }
