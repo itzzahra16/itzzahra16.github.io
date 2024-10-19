@@ -224,7 +224,7 @@ span {
     margin: 1rem 0;
     resize: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 100%) {
     .home {
         flex-direction: column;
         padding: 30px 8%;
