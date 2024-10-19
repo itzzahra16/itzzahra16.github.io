@@ -344,4 +344,7 @@ span {
     .about-img img {
         width: 250px;
     }
+    .about-form input {
+        padding: 5%;
+    }
 }
