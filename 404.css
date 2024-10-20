@@ -33,7 +33,7 @@
 .frem a {
     position: absolute;
     bottom: 1rem;
-    background: linear-gradient((45deg, blueviolet, blanchedalmond));
+    background: linear-gradient(45deg, blueviolet, blanchedalmond);
     padding: 12px;
     color: white;
     text-decoration: none;
