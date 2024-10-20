@@ -30,9 +30,7 @@
     bottom: 6rem;
     color: #9c9c9c;
 }
-.frem a{
-    position: absolute;
-    bottom: 1rem;
+.frem a {
     background: linear-gradient(45deg, #ff0034, #ffbc00);
     padding: 12px;
     color: white;
