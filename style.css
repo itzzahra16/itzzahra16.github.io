@@ -231,13 +231,12 @@ span {
     color: white;
     padding-left: 5%;
 }
-.footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0;
-    background-color: black;
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
 }
+
 @media (max-width: 1048px) {
     .home {
         flex-direction: column;
