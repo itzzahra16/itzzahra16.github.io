@@ -250,6 +250,11 @@ span {
     box-shadow: inset 0 0 10px bisque, 0 0 10px bisque;
     transition: 0.3s ease;
 }
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    color: bisque;
+    border: 2px solid bisque;
+}
 
 @media (max-width: 1048px) {
     .home {
