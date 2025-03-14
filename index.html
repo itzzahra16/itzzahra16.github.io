@@ -51,11 +51,25 @@
                     <h1 class="sub-title">About Me</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi odio illo nulla aperiam, recusandae molestiae itaque doloribus nemo explicabo cupiditate esse voluptatum minima quo similique suscipit magni, facere quisquam?</p>
                 <div class="tab-titles">
-                    <p class="tab-links active-link">skills</p>
-                    <p class="tab-links">Experience</p>
-                    <p class="tab-links">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
                 </div>
-                <div class="tab-contents">
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Newbie Programmer</span><br>Making a Website or application</li>
+                        <li><span>Web Development</span><br>Making Website or application</li>
+                        <li><span>App Development</span><br>Making Website or application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Newbie Programmer</span><br>Making a Website or application</li>
+                        <li><span>Web Development</span><br>Making Website or application</li>
+                        <li><span>App Development</span><br>Making Website or application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
                     <ul>
                         <li><span>Newbie Programmer</span><br>Making a Website or application</li>
                         <li><span>Web Development</span><br>Making Website or application</li>
@@ -67,68 +81,21 @@
         </div>
     </div>
 
-    <section class="home">
-        <div class="home-content">
-            <h3>Hello!</h3>
-            <h1>I'm <span>lol<br></span>engineering student</h1>
-            <p>Hey! I'm an engineering student who loves exploring new things, 
-            whether it’s through creative projects, campus activities or just experimenting in my free time. 
-            I'm passionate about technology and design and I'm always looking for ways to create something unique.</p>
-            <div class="btn-box">
-                <button class="btn-1">contact me!</button>
-                <button class="btn-2">Experience</button>
-            </div>
-        </div>
-        <div class="img-box">
-            <img src="./images/cat.png.jpg" alt="Image of Zahra" />
-        </div>
-    </section>
+    <script>
 
-    <section class="about">
-        <div class="about-img">
-            <img src="./images/cat.png.jpg" alt="image of zahra">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Engineering <span>Student</span></h3>
-            <p>Hey there! I'm Fatimah Azzahra Nur Faidah, a passionate student currently studying In Engineering at ULBI.
-            I really like doing creativity, learning and tackling new challenges. My journey so far has been a mix of academic projects, personal explorations, and some pretty cool collaborations.
-            Whether it's working on research papers, design projects, or even community initiatives, I’m always looking for ways to grow and make an impact.
-            When I’m not buried in books or brainstorming ideas, you can probably find me Designing and coding.
-            I'm constantly exploring new skills and pushing the boundaries of what I can do.    
-            Feel free to check out my work and see how my passion drives everything I do.
-            Let’s connect and maybe even collaborate on something awesome!</p>
-            <a href="#" class="btn-2">Experience</a>
-        </div>
-    </section>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablinks of tablinks){
+                tablinks.classList.remove("active-link");
+            }
+            for(tablinks of tabcontents){
+                tabcontents.classList.remove("active-tab");
+            }
+        }
 
-    <section class="contact-form">
-        <h2 class="contact-me">contact<span>me</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="number" placeholder="Phone number">
-                <input type="text" placeholder="subject">
-            </div>
-            <textarea name="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <input type="submit" value="send message" class="btn-1">
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="social">
-            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-        </div>
-        <ul class="list">
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">Privacy Police</a></li>
-        </ul>
-    </footer>
+    </script>
     <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@1.0.2/index.js"></script>
 
 
