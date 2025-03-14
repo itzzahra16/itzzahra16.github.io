@@ -49,31 +49,14 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi odio illo nulla aperiam, recusandae molestiae itaque doloribus nemo explicabo cupiditate esse voluptatum minima quo similique suscipit magni, facere quisquam?</p>
+                    <p>Hello my name is Fatimah Azzahra nur faidah who loves coding, problem-solving and building cool stuff. Skilled in HTML, CSS, and JS with experience in web dev. Always learning new things and passionate about creating efficient, user-friendly Website.</p>
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
-                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">currently my skills in :</p>
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Newbie Programmer</span><br>Making a Website or application</li>
-                        <li><span>Web Development</span><br>Making Website or application</li>
-                        <li><span>App Development</span><br>Making Website or application</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Experience">
-                    <ul>
-                        <li><span>Newbie Programmer</span><br>Making a Website or application</li>
-                        <li><span>Web Development</span><br>Making Website or application</li>
-                        <li><span>App Development</span><br>Making Website or application</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="Education">
-                    <ul>
-                        <li><span>Newbie Programmer</span><br>Making a Website or application</li>
-                        <li><span>Web Development</span><br>Making Website or application</li>
-                        <li><span>App Development</span><br>Making Website or application</li>
+                        <li><span>UI/UX</span><br>Making design for UI/UX</li>
+                        <li><span>Web Development</span><br>Making Website for user-friendly</li>
                     </ul>
                 </div>
                 </div>
@@ -81,23 +64,32 @@
         </div>
     </div>
 
-    <script>
+    <!-----------services----------->
 
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur temporibus, consequatur laboriosam autem doloribus dignissimos illo nihil debitis ut perspiciatis placeat ipsa, commodi sapiente iusto qui expedita exercitationem voluptatibus cum?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur temporibus, consequatur laboriosam autem doloribus dignissimos illo nihil debitis ut perspiciatis placeat ipsa, commodi sapiente iusto qui expedita exercitationem voluptatibus cum?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Private class</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur temporibus, consequatur laboriosam autem doloribus dignissimos illo nihil debitis ut perspiciatis placeat ipsa, commodi sapiente iusto qui expedita exercitationem voluptatibus cum?</p>
+                    <a href="#">learn more</a>
+                </div>
 
-    </script>
+            </div>
+        </div>
+    </div>
+
     <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@1.0.2/index.js"></script>
 
 
