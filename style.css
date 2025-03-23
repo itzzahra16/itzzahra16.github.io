@@ -158,3 +158,8 @@ nav ul li a:hover::after{
     grid-gap: 40px;
     margin-top: 50px;
 }
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
