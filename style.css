@@ -192,3 +192,18 @@ nav ul li a:hover::after{
     color: white;
     max-width: 90%;
 }
+.description a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ffcc00; /* Warna tombol */
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.description a:hover {
+    background-color: #e6b800; /* Warna saat dihover */
+}
