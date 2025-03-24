@@ -154,18 +154,18 @@ nav ul li a:hover::after{
 }
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Lebih fleksibel */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
-    justify-items: center; /* Supaya elemen tetap rata tengah */
+    justify-items: center;
 }
 
 .work-container {
     display: flex;
-    flex-direction: column; /* Agar gambar dan teks berurutan */
+    flex-direction: column;
     align-items: center;
-    text-align: center; /* Agar teks berada di tengah */
-    width: 300px; /* Ukuran tetap */
+    text-align: center;
+    width: 300px;
 }
 
 .work {
@@ -187,9 +187,8 @@ nav ul li a:hover::after{
 }
 
 .description {
-    margin-top: 10px; /* Jarak antara gambar dan teks */
+    margin-top: 20px; /* Jarak antara gambar dan teks */
     font-size: 16px;
     color: white;
     max-width: 90%;
 }
-
